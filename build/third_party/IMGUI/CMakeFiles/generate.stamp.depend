@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/IMGUI/CMakeLists.txt
+C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/IMGUI/cmake/FindImGui.cmake

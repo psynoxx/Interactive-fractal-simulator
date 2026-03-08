@@ -1,0 +1,10 @@
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\D036D4C14F4AD36F7682E581B5461277\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild -BC:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/freetype-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/SFML/src/SFML/Window/CMakeLists.txt
+C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/SFML/src/SFML/Window/Dependencies.cmake.in

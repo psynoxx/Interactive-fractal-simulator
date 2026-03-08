@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeParseArguments.cmake
+C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/SFML/cmake/CompilerWarnings.cmake
+C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/SFML/cmake/Macros.cmake
+C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/SFML/src/SFML/CMakeLists.txt

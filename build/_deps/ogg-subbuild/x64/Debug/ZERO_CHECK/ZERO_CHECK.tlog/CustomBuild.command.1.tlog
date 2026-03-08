@@ -1,0 +1,10 @@
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\OGG-SUBBUILD\CMAKEFILES\049A82F65930DF4DCEA43C10E3A35352\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/ogg-subbuild -BC:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/ogg-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/ogg-subbuild/ogg-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

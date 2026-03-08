@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\bff56a578eef33f0f6d4217309c96595\ogg-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\bff56a578eef33f0f6d4217309c96595\ogg-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\bff56a578eef33f0f6d4217309c96595\ogg-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\bff56a578eef33f0f6d4217309c96595\ogg-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\bff56a578eef33f0f6d4217309c96595\ogg-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\bff56a578eef33f0f6d4217309c96595\ogg-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\bff56a578eef33f0f6d4217309c96595\ogg-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\bff56a578eef33f0f6d4217309c96595\ogg-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\8e4a306b46c1840414c8621ed35d62c2\ogg-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\049a82f65930df4dcea43c10e3a35352\ogg-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-subbuild\CMakeFiles\ogg-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{48BF6BAC-66A1-3A40-B82F-E255C1687B5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

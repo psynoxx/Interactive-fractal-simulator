@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-src/cmake/VorbisConfig.cmake.in
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-src/lib/CMakeLists.txt

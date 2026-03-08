@@ -1,0 +1,154 @@
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\CEB00277D24D118C0B9E5F40F0CEC095\VORBIS-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\CEB00277D24D118C0B9E5F40F0CEC095\VORBIS-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\CEB00277D24D118C0B9E5F40F0CEC095\VORBIS-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/tmp/vorbis-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\CEB00277D24D118C0B9E5F40F0CEC095\VORBIS-POPULATE-PATCH.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DVORBIS_DIR=C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-src -P C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/SFML-3.0.2/tools/vorbis/PatchVorbis.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\CEB00277D24D118C0B9E5F40F0CEC095\VORBIS-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\CEB00277D24D118C0B9E5F40F0CEC095\VORBIS-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\CEB00277D24D118C0B9E5F40F0CEC095\VORBIS-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\CEB00277D24D118C0B9E5F40F0CEC095\VORBIS-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\0863327AF38B52299F27FA9193DA4334\VORBIS-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/Debug/vorbis-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/Debug/vorbis-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\8EBD40908A263578CFD414B4116C7275\VORBIS-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\VORBIS-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild -BC:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild --check-stamp-file C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,25 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/src/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/SFML-3.0.2/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/SFML-3.0.2/src/SFML/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/SFML-3.0.2/src/SFML/System/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/SFML-3.0.2/src/SFML/Main/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/SFML-3.0.2/src/SFML/Window/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/SFML-3.0.2/src/SFML/Network/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/SFML-3.0.2/src/SFML/Graphics/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-build/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/SFML-3.0.2/src/SFML/Audio/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/ogg-build/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-build/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-build/src/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-build/src/libFLAC/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-build/microbench/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-build/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-build/lib/cmake_install.cmake",
+		"C:/Users/Ggold/projects/CMake-SFML-ImGui/build/third_party/IMGUI/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

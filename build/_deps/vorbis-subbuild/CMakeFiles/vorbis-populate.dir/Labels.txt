@@ -1,0 +1,14 @@
+# Target labels
+ vorbis-populate
+# Source files and their labels
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/8ebd40908a263578cfd414b4116c7275/vorbis-populate.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/0863327af38b52299f27fa9193da4334/vorbis-populate-complete.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/ceb00277d24d118c0b9e5f40f0cec095/vorbis-populate-build.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/ceb00277d24d118c0b9e5f40f0cec095/vorbis-populate-configure.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/ceb00277d24d118c0b9e5f40f0cec095/vorbis-populate-download.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/ceb00277d24d118c0b9e5f40f0cec095/vorbis-populate-install.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/ceb00277d24d118c0b9e5f40f0cec095/vorbis-populate-mkdir.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/ceb00277d24d118c0b9e5f40f0cec095/vorbis-populate-patch.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/ceb00277d24d118c0b9e5f40f0cec095/vorbis-populate-test.rule
+C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/vorbis-subbuild/CMakeFiles/ceb00277d24d118c0b9e5f40f0cec095/vorbis-populate-update.rule

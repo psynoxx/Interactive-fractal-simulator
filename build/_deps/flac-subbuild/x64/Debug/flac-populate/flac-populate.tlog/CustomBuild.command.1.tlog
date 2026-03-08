@@ -1,0 +1,154 @@
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\58C20A7546B499105058BBBA9E9CE545\FLAC-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\58C20A7546B499105058BBBA9E9CE545\FLAC-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\58C20A7546B499105058BBBA9E9CE545\FLAC-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\flac-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\58C20A7546B499105058BBBA9E9CE545\FLAC-POPULATE-PATCH.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\flac-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DFLAC_DIR=C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-src -P C:/Users/Ggold/projects/CMake-SFML-ImGui/third_party/SFML-3.0.2/tools/flac/PatchFLAC.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\58C20A7546B499105058BBBA9E9CE545\FLAC-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\flac-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\58C20A7546B499105058BBBA9E9CE545\FLAC-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\flac-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\58C20A7546B499105058BBBA9E9CE545\FLAC-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\flac-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\58C20A7546B499105058BBBA9E9CE545\FLAC-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\flac-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\485E44337589DA51545D08BA50581764\FLAC-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/Debug/flac-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\0252952254B6ADA17C48038886B6C1C1\FLAC-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GGOLD\PROJECTS\CMAKE-SFML-IMGUI\BUILD\_DEPS\FLAC-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild -BC:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild --check-stamp-file C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

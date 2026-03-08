@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/d036d4c14f4ad36f7682e581b5461277/freetype-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/bff3b6c6bc3beaa74bc9f8d4735ba5eb/freetype-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/fe13ff214b12f0445fc889817feae22a/freetype-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/fe13ff214b12f0445fc889817feae22a/freetype-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/fe13ff214b12f0445fc889817feae22a/freetype-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/fe13ff214b12f0445fc889817feae22a/freetype-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/fe13ff214b12f0445fc889817feae22a/freetype-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/fe13ff214b12f0445fc889817feae22a/freetype-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/fe13ff214b12f0445fc889817feae22a/freetype-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/freetype-subbuild/CMakeFiles/fe13ff214b12f0445fc889817feae22a/freetype-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"freetype-populate"
+		],
+		"name" : "freetype-populate"
+	}
+}

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SheenBidi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SheenBidi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBBidiType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBCodepoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBCodepointSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBGeneralCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBMirrorLocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBParagraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBRun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBScriptLocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Headers\SheenBidi\SBVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\BidiChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\BidiTypeLookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\BracketQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\BracketType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\GeneralCategoryLookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\IsolatingRun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\LevelRun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\PairingLookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\RunExtrema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\RunKind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\RunQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBCodepoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBCodepointSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBMirrorLocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBParagraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\SBScriptLocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\ScriptLookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\ScriptStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\Source\StatusStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\sheenbidi-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0D9F9FEA-EC9B-3B68-B8BD-B7CEAD38BD97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83E08335-9876-3B13-A18E-A06E7520DC63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

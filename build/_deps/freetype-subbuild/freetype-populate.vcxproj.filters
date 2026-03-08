@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\fe13ff214b12f0445fc889817feae22a\freetype-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\fe13ff214b12f0445fc889817feae22a\freetype-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\fe13ff214b12f0445fc889817feae22a\freetype-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\fe13ff214b12f0445fc889817feae22a\freetype-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\fe13ff214b12f0445fc889817feae22a\freetype-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\fe13ff214b12f0445fc889817feae22a\freetype-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\fe13ff214b12f0445fc889817feae22a\freetype-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\fe13ff214b12f0445fc889817feae22a\freetype-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\bff3b6c6bc3beaa74bc9f8d4735ba5eb\freetype-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\d036d4c14f4ad36f7682e581b5461277\freetype-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-subbuild\CMakeFiles\freetype-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B4F7C2C-EED5-38D3-9138-E62B3C65AFFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

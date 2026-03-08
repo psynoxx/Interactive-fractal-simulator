@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="third_party/IMGUI/ImGui-SFML.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a5907716-3b9b-3c21-a620-201b87e88646">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/freetype-build/freetype.vcxproj"/>
+		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Graphics/sfml-graphics.vcxproj"/>
+		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj"/>
+		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Window/sfml-window.vcxproj"/>
+	</Project>
+	<Project Path="src/example_exe.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d091985c-e0e5-3406-9630-aed25168bbc6">
+		<BuildDependency Project="third_party/IMGUI/ImGui-SFML.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/freetype-build/freetype.vcxproj"/>
+		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Graphics/sfml-graphics.vcxproj"/>
+		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj"/>
+		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Window/sfml-window.vcxproj"/>
+	</Project>
+	<Folder Name="/CMake/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cd226213-9601-3473-9735-bc0ab98cbb4f" DefaultStartup="true">
+			<BuildDependency Project="_deps/flac-build/src/libFLAC/FLAC.vcxproj"/>
+			<BuildDependency Project="third_party/IMGUI/ImGui-SFML.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="src/example_exe.vcxproj"/>
+			<BuildDependency Project="_deps/freetype-build/freetype.vcxproj"/>
+			<BuildDependency Project="_deps/ogg-build/ogg.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Audio/sfml-audio.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Graphics/sfml-graphics.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Main/sfml-main.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Network/sfml-network.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Window/sfml-window.vcxproj"/>
+			<BuildDependency Project="_deps/vorbis-build/lib/vorbis.vcxproj"/>
+			<BuildDependency Project="_deps/vorbis-build/lib/vorbisenc.vcxproj"/>
+			<BuildDependency Project="_deps/vorbis-build/lib/vorbisfile.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="91c7be9e-2173-3df5-bd07-267671fb98db">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="PACKAGE.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="aab22341-a9e2-3d68-87fd-ee05409504c6">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5277b1e7-ede0-3a33-958e-4a68fbf6472e"/>
+	</Folder>
+	<Folder Name="/Dependencies/">
+		<Project Path="_deps/flac-build/src/libFLAC/FLAC.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6fe15b78-58dc-3abe-98e9-7dcb1ea1dd10">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="_deps/ogg-build/ogg.vcxproj"/>
+		</Project>
+		<Project Path="_deps/freetype-build/freetype.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="480d7afb-216c-3738-a14e-87a6096618b1">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="_deps/ogg-build/ogg.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="bb2c27a2-28be-31d2-89c7-8a3c29ad4305">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="_deps/vorbis-build/lib/vorbis.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d0c405f3-6ed5-319c-8ff8-59e3c4289ab3">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="_deps/ogg-build/ogg.vcxproj"/>
+		</Project>
+		<Project Path="_deps/vorbis-build/lib/vorbisenc.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4dc055d4-f93f-35b2-b27e-294001b3a78c">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="_deps/ogg-build/ogg.vcxproj"/>
+			<BuildDependency Project="_deps/vorbis-build/lib/vorbis.vcxproj"/>
+		</Project>
+		<Project Path="_deps/vorbis-build/lib/vorbisfile.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b6363b23-5b82-323e-9619-804863cbe16f">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="_deps/ogg-build/ogg.vcxproj"/>
+			<BuildDependency Project="_deps/vorbis-build/lib/vorbis.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/SFML/">
+		<Project Path="third_party/SFML-3.0.2/src/SFML/Audio/sfml-audio.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="774add90-3842-33de-80b8-6df6662c8634">
+			<BuildDependency Project="_deps/flac-build/src/libFLAC/FLAC.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="_deps/ogg-build/ogg.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj"/>
+			<BuildDependency Project="_deps/vorbis-build/lib/vorbis.vcxproj"/>
+			<BuildDependency Project="_deps/vorbis-build/lib/vorbisenc.vcxproj"/>
+			<BuildDependency Project="_deps/vorbis-build/lib/vorbisfile.vcxproj"/>
+		</Project>
+		<Project Path="third_party/SFML-3.0.2/src/SFML/Graphics/sfml-graphics.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="552c34dc-d523-31c1-aa01-60ebe2087b22">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="_deps/freetype-build/freetype.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Window/sfml-window.vcxproj"/>
+		</Project>
+		<Project Path="third_party/SFML-3.0.2/src/SFML/Main/sfml-main.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7d793202-6f4a-31b3-ae27-4d6c23d51c3c">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="third_party/SFML-3.0.2/src/SFML/Network/sfml-network.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a53b82c2-2a78-3761-bcbe-3d0555b2e42c">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj"/>
+		</Project>
+		<Project Path="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f5ca143b-18e4-3bd6-801e-aae0c8ded213">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="third_party/SFML-3.0.2/src/SFML/Window/sfml-window.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="651781dd-7898-395c-9095-b5a342b3c214">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj"/>
+		</Project>
+	</Folder>
+</Solution>

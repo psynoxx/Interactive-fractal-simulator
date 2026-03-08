@@ -1,0 +1,109 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third_party/IMGUI/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third_party/IMGUI/Release/ImGui-SFML.lib"
+			],
+			"targetId" : "ImGui-SFML::@7ad2cbf5844723011509",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"third_party/IMGUI/imgui-SFML.h",
+				"third_party/IMGUI/imgui-SFML_export.h",
+				"third_party/IMGUIBASE/imconfig.h",
+				"third_party/IMGUIBASE/imgui.h",
+				"third_party/IMGUIBASE/imgui_internal.h",
+				"third_party/IMGUIBASE/imstb_rectpack.h",
+				"third_party/IMGUIBASE/imstb_textedit.h",
+				"third_party/IMGUIBASE/imstb_truetype.h",
+				"third_party/IMGUIBASE/misc/cpp/imgui_stdlib.h",
+				"third_party/IMGUI/imconfig-SFML.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/ImGui-SFML",
+			"exportName" : "ImGui-SFML",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ImGui-SFML::@7ad2cbf5844723011509",
+					"index" : 8
+				}
+			],
+			"paths" : 
+			[
+				"third_party/IMGUI/CMakeFiles/Export/761a6a4c7704629aea6d1d08969b2ac8/ImGui-SFML.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/ImGui-SFML",
+			"paths" : 
+			[
+				"third_party/IMGUI/cmake/ImGui-SFMLConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third_party/IMGUI",
+		"source" : "third_party/IMGUI"
+	}
+}

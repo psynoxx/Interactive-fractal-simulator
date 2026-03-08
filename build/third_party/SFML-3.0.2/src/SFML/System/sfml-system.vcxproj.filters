@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Clock.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Err.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Sleep.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\String.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Utils.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Vector2.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Vector3.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\FileInputStream.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\MemoryInputStream.cpp" />
+    <ClCompile Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Win32\SleepImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Angle.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Angle.inl" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\EnumArray.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Err.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Exception.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Export.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\NativeActivity.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Sleep.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\String.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\String.inl" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Time.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Time.inl" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Utf.inl" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Utils.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Vector2.inl" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\Vector3.inl" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\FileInputStream.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\include\SFML\System\SuspendAwareClock.hpp" />
+    <ClInclude Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\Win32\SleepImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\third_party\SFML-3.0.2\src\SFML\System\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="windows">
+      <UniqueIdentifier>{1628E417-F68C-34C0-9E75-7AB6B2727470}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

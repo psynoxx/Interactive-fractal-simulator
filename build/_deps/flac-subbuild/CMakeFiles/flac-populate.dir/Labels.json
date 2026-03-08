@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/flac-populate"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/0252952254b6ada17c48038886b6c1c1/flac-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/485e44337589da51545d08ba50581764/flac-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/58c20a7546b499105058bbba9e9ce545/flac-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/58c20a7546b499105058bbba9e9ce545/flac-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/58c20a7546b499105058bbba9e9ce545/flac-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/58c20a7546b499105058bbba9e9ce545/flac-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/58c20a7546b499105058bbba9e9ce545/flac-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/58c20a7546b499105058bbba9e9ce545/flac-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/58c20a7546b499105058bbba9e9ce545/flac-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Ggold/projects/CMake-SFML-ImGui/build/_deps/flac-subbuild/CMakeFiles/58c20a7546b499105058bbba9e9ce545/flac-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"flac-populate"
+		],
+		"name" : "flac-populate"
+	}
+}

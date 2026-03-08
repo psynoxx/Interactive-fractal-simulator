@@ -1,0 +1,58 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sfml_add_library"
+		],
+		"files" : 
+		[
+			"third_party/SFML-3.0.2/cmake/Macros.cmake",
+			"third_party/SFML-3.0.2/src/SFML/Network/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 234,
+				"parent" : 1
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"third_party/SFML-3.0.2/lib/RelWithDebInfo/sfml-network-s.lib"
+			],
+			"targetId" : "sfml-network::@bd23f9e9526eef5d6a1e",
+			"targetIndex" : 16,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "third_party/SFML-3.0.2/src/SFML/Network",
+		"source" : "third_party/SFML-3.0.2/src/SFML/Network"
+	}
+}

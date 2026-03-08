@@ -1,0 +1,7 @@
+{
+  "cmake.generator": "Visual Studio 18 2026",
+  "cmake.configureOnOpen": true,
+  "cmake.preferredGenerators": [
+    "Visual Studio 18 2026"
+  ]
+}

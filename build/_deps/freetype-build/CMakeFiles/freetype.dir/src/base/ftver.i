@@ -1,0 +1,19 @@
+#line 1 "C:\\Users\\Ggold\\projects\\CMake-SFML-ImGui\\build\\_deps\\freetype-src\\src\\base\\ftver.rc"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
