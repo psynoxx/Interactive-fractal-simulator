@@ -11,8 +11,8 @@ public:
 
     void pause();
     void resume();
-    void DrawKoch(float size, sf::RenderWindow& Window, int depth, sf::Vector2f pos, sf::Angle rot);
-
+    void DrawKoch(sf::Vector2f a, sf::Vector2f b, int depth, sf::RenderWindow& window);
+    
     void handleEvents(gameEngine& game);
     void update(gameEngine& game);
     void draw(gameEngine& game);
@@ -24,9 +24,5 @@ public:
 
 
 private:
-    sf::Texture bgTexture;
-    sf::RenderTexture sierText;
-    float rt2;
-    static sf::CircleShape triangle;
 
 };

@@ -10,6 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 
 add_subdirectory(src)
+#add_subdirectory(third_party/IMGUI/examples/minimal)
 add_subdirectory(third_party/SFML-3.0.2)
 
 set(IMGUI_DIR ${imgui_SOURCE_DIR})
@@ -25,5 +26,5 @@ add_subdirectory(third_party/IMGUI) # needs dearIMGUI dependencies and wont conf
 
 
 
-target_link_libraries(example_exe PRIVATE sfml-graphics)
+target_link_libraries(example_exe PRIVATE sfml-graphics sfml-audio)
 #956 IGUI-SFML.cpp

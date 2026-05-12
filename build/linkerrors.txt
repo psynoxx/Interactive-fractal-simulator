@@ -1,0 +1,8 @@
+================================================================================
+Linker Errors
+Generated: 2026-05-04T15:29:04.828Z
+Total Errors: 1
+================================================================================
+
+[LNK1168] (MSVC)
+cannot open C:\Users\Ggold\projects\CMake-SFML-ImGui\build\src\Debug\example_exe.exe for writing [C:\Users\Ggold\projects\CMake-SFML-ImGui\build\src\example_exe.vcxproj]

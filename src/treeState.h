@@ -2,16 +2,16 @@
 #include <SFML/Graphics.hpp>
 #include "gameState.h"
 
+
 class treeState : public gameState 
 {
 public:
     void init();
-    // void cleanup(); most likely unneeded
 
     void pause();
     void resume();
-    void DrawTree(float size, float angle, sf::RenderWindow& window, int depth, sf::Vector2f point, float scale);
-
+    void DrawTree(float size, float angle, sf::RenderWindow& window, int depth, sf::Vector2f point);
+    
     void handleEvents(gameEngine& game);
     void update(gameEngine& game);
     void draw(gameEngine& game);
@@ -20,11 +20,8 @@ public:
         return std::make_unique<treeState>();  // also of type 'gameState'
     } // we do this so each funtion can share a similar parent through which it is called
 
-
+    
 
 private:
-    sf::Texture bgTexture;
-    float rt2;
-    static sf::CircleShape triangle;
 
 };

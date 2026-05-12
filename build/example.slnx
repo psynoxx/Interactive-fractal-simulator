@@ -15,12 +15,18 @@
 		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Window/sfml-window.vcxproj"/>
 	</Project>
 	<Project Path="src/example_exe.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d091985c-e0e5-3406-9630-aed25168bbc6">
+		<BuildDependency Project="_deps/flac-build/src/libFLAC/FLAC.vcxproj"/>
 		<BuildDependency Project="third_party/IMGUI/ImGui-SFML.vcxproj"/>
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		<BuildDependency Project="_deps/freetype-build/freetype.vcxproj"/>
+		<BuildDependency Project="_deps/ogg-build/ogg.vcxproj"/>
+		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Audio/sfml-audio.vcxproj"/>
 		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Graphics/sfml-graphics.vcxproj"/>
 		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/System/sfml-system.vcxproj"/>
 		<BuildDependency Project="third_party/SFML-3.0.2/src/SFML/Window/sfml-window.vcxproj"/>
+		<BuildDependency Project="_deps/vorbis-build/lib/vorbis.vcxproj"/>
+		<BuildDependency Project="_deps/vorbis-build/lib/vorbisenc.vcxproj"/>
+		<BuildDependency Project="_deps/vorbis-build/lib/vorbisfile.vcxproj"/>
 	</Project>
 	<Folder Name="/CMake/">
 		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cd226213-9601-3473-9735-bc0ab98cbb4f" DefaultStartup="true">

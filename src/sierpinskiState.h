@@ -7,7 +7,6 @@ class sierpinskiState : public gameState
 {
 public:
     void init();
-    // void cleanup(); most likely unneeded
 
     void pause();
     void resume();
@@ -28,5 +27,7 @@ private:
     sf::RenderTexture sierText;
     float rt2;
     static sf::CircleShape triangle;
+    sf::VertexArray sierpinski;
+
 
 };

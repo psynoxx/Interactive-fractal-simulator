@@ -15,9 +15,8 @@ float pi = 3.14159265359;
 bool t_open = true;
 float angle = 0;
 int depth = 10;
-float t_scale = 3/4.f;
-float t_size = 100;
-float t_a = pi/6;
+float t_scale = 100; // fractal scale factor
+float t_angleChange = pi/6; // branch angle
 int t_s = 1;
 int t_r = 0;
 int t_g = 255;
@@ -26,15 +25,57 @@ int t_m = 0;
 sf::View t_view(sf::FloatRect({0.f, 0.f}, {1920.f, 1080.f}));
 sf::Clock t_dTime;
 
+sf::Font tfont;
+sf::Text tframes(tfont);
 
-sf::CircleShape treeState::triangle(200,3);
+sf::VertexArray tree(sf::PrimitiveType::Lines);
+
+
 
 void treeState::init(){
+
+    showUI = true;
+    dTime.start();
+
+    if(!tfont.openFromFile("minecraft.ttf")){
+        std::cout << ("failed to load font");
+    }
+    tframes.setFont(tfont);
+    tframes.setPosition({1800,100});
+    
     t_dTime.start();
     ImGuiWindowFlags window_flags = 0;
     window_flags |= ImGuiWindowFlags_NoResize;
     window_flags |= ImGuiWindowFlags_NoMove;
     //implement alpha channel
+
+    tframes.setPosition({1550,50});
+
+    src = 
+    " Function: DrawTree\n"
+    " Purpose: Recursively draws a fractal tree using line segments.\n"
+    " Parameters: size (float) - Length of each branch\n"
+    " angle (float) - Angle of branch deviation\n"
+    " window (sf::RenderWindow&) - SFML Window reference\n"
+    " depth (int) - Recursion depth\n"
+    " point (sf::Vector2f) - Starting point of branch\n"
+    "/\n\n"
+    "void treeState::DrawTree(float size, float angle, sf::RenderWindow& window,int depth, sf::Vector2f point){\n\n"
+    "\tif(depth<=0){return;} // base case\n"
+    "\tstd::array line =\n"
+    "\t{\n"
+    "\t\tsf::Vertex{point,sf::Color(depth*R,depth*G,depth*B)}, // initial point\n"
+    "\t\tsf::Vertex{sf::Vector2f(point.x - tan(angle)*size, point.y - size), sf::Color(depth*R,depth*G,depth*B)} // transformed point\n"
+    "\t};\n"
+    "\ttree.append(line[0]);\n"
+    "\ttree.append(line[1]);\n"
+    "\t//window.draw(line.data(), line.size(), sf::PrimitiveType::Lines);\n\n"
+    "\tif(angle+pi/6 != pi/2 && angle-pi/6 != -pi/2){\n"
+    "\t\tDrawTree(size*VERTICALSTRETCH,0 , window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size));\n"
+    "\t\tDrawTree(size*HORIZONTALSTRETCH,angle + ANGLECHANGE, window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size));\n"
+    "\t\tDrawTree(size*HORIZONTALSTRETCH,angle - ANGLECHANGE, window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size));\n"
+    "\t}\n"
+    "}\n";
 
 }
 
@@ -48,20 +89,22 @@ void treeState::resume(){
 
 
 
-void treeState::DrawTree(float size, float angle, sf::RenderWindow& window,int depth, sf::Vector2f point, float scale){
+void treeState::DrawTree(float size, float angle, sf::RenderWindow& window,int depth, sf::Vector2f point){
 
     if(depth<=0){return;}
     std::array line =
     {
-        sf::Vertex{point,sf::Color(depth*t_r,depth*t_g,depth*t_b)},
-        sf::Vertex{sf::Vector2f(point.x - size*tan(angle), point.y - size), sf::Color(depth*t_r,depth*t_g,depth*t_b)}
+        sf::Vertex{point,sf::Color(depth*R,depth*G,depth*B)}, //initial point
+        sf::Vertex{sf::Vector2f(point.x - tan(angle)*size, point.y - size), sf::Color(depth*R,depth*G,depth*B)} //transformed point
     };
-    
-    window.draw(line.data(), line.size(), sf::PrimitiveType::Lines);
-    if(angle+pi/6 != pi/2 && angle-pi/6 != -pi/2){
-        DrawTree(size*scale,0 , window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size), scale);
-        DrawTree(size*scale,angle + t_a, window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size), scale);
-        DrawTree(size*scale,angle - t_a, window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size), scale);
+    tree.append(line[0]);
+    tree.append(line[1]);
+    //window.draw(line.data(), line.size(), sf::PrimitiveType::Lines); //draw line
+    if(angle+pi/6 != pi/2 && angle-pi/6 != -pi/2){ // ignores calls which will result in extreme branch length
+   //function called on transformed point
+        DrawTree(size*VERTICALSTRETCH,0 , window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size));  //verticle point
+        DrawTree(size*HORIZONTALSTRETCH,angle + ANGLECHANGE, window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size)); //right point
+        DrawTree(size*HORIZONTALSTRETCH,angle - ANGLECHANGE, window, depth-1, sf::Vector2f(point.x - size*tan(angle), point.y - size)); //left point
     }
 }
 
@@ -107,26 +150,18 @@ void treeState::handleEvents(gameEngine& game){
 void treeState::update(gameEngine& game){
     //update
     game.window.setView(t_view);
+    float delta = t_dTime.restart().asSeconds();
+    int fps = 1.0f/delta;
+    //tframes.setString(std::to_string(fps));
+    tframes.setString("press escape to exit");
+    
 }
 
 void treeState::draw(gameEngine& game){
-    ImGui::Begin("parameters", &t_open, ImGuiWindowFlags_NoMove);
-        ImGui::SliderFloat("slider float angle", &angle, 0, pi/3);
-        ImGui::SliderFloat("slider float scale", &t_scale, -1, 1);
-        ImGui::SliderFloat("slider float size", &t_size, 0, 200);
-        ImGui::SliderInt("slider float r", &t_r, 0, 255);
-        ImGui::SliderInt("slider float g", &t_g, 0, 255);
-        ImGui::SliderInt("slider float b", &t_b, 0, 255);
-        ImGui::SliderInt("delta time", &t_m, 0, 1);
-        ImGui::SliderInt("slider int slow", &t_s, 0, 25);
-        ImGui::SliderInt("slider int depth", &depth, 0, 14);
-        ImGui::SliderFloat("slider float angle change", &t_a, -pi/2, pi/2);
-        if(t_m==1){
-            t_g = (static_cast<int>(t_dTime.getElapsedTime().asMilliseconds()/t_s)%255);
-            
-        }
-    
-    ImGui::End();
-    DrawTree(t_size, angle, game.window, depth, sf::Vector2f(game.window.getSize().x/2,game.window.getSize().y/2), t_scale);
+    tree.clear();
+    DrawTree(SCALE*200, angle, game.window, DEPTH, sf::Vector2f(game.window.getSize().x/2,game.window.getSize().y/2));
+    game.window.draw(tree);
+    game.window.draw(tframes);
+
 
 }

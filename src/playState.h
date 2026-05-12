@@ -1,5 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include "gameState.h"
 
 
@@ -22,7 +23,9 @@ public:
 
 
 private:
-    sf::Texture bgTexture;
+    sf::Texture Sier;
+    sf::Texture Tree;
+    sf::Texture Koch;
     sf::RenderTexture renderTexture;
     static sf::CircleShape b_triangle;
     static sf::CircleShape s1_triangle;

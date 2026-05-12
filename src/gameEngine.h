@@ -3,6 +3,7 @@
 #include <imgui-SFML.h>
 #include <imgui.h>
 #include <vector>
+#include <SFML/Audio.hpp>
 
 class gameState;
 
@@ -31,5 +32,6 @@ public:
     
 private:
     std::vector<std::unique_ptr<gameState>> states; 
+    sf::Music music;
     bool m_running;
 };

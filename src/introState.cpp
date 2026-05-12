@@ -6,6 +6,7 @@
 #include "gameState.h"
 #include "gameEngine.h"
 #include "playState.h"
+#include "menuState.h"
 
 sf::Clock i_deltaTime;
 sf::Font font;
@@ -15,6 +16,9 @@ sf::Text instruct(font);
 uint8_t fade = 1;
 
 void introState::init(){
+
+    showUI = false;
+
     if (!bgTexture.loadFromFile("intro.bmp", false, sf::IntRect({0, 0}, {1920, 1080})))// using a single texture allows you to group static geometry into a single entity (you can only use one texture per draw call), which will be much faster to draw than a set of many entities. 
     {
         std::cout << ("failed to load bg from file");
@@ -60,17 +64,17 @@ void introState::handleEvents(gameEngine& game){
     while (const std::optional event = game.window.pollEvent())
     {
         ImGui::SFML::ProcessEvent(game.window, *event);
-        if (event->is<sf::Event::Closed>())
+        if (event->is<sf::Event::Closed>())//checks for window closed
         {
-            game.quit();
+            game.quit();//quits program
             
         }
-        else if(const auto* keyPressed = event->getIf<sf::Event::KeyPressed>()){
-            if(keyPressed->scancode == sf::Keyboard::Scancode::Escape){
+        else if(const auto* keyPressed = event->getIf<sf::Event::KeyPressed>()){ //checks for input
+            if(keyPressed->scancode == sf::Keyboard::Scancode::Escape){ //escape pressed
                 game.quit();
                 ImGui::SFML::Shutdown();
             }
-            if(keyPressed->scancode == sf::Keyboard::Scancode::Space){
+            if(keyPressed->scancode == sf::Keyboard::Scancode::Space){//space pressed
                 game.changeState( playState::instance() );
             }
         }
@@ -84,28 +88,28 @@ void introState::update(gameEngine& game){
 
 void introState::draw(gameEngine& game){
     sf::Sprite bgSprite(bgTexture);
-    //std::cout << i_deltaTime.getElapsedTime().asMilliseconds()/10<<std::endl;  
 
     if(i_deltaTime.getElapsedTime().asMilliseconds()/10 < 250){
         project_name.setFillColor(sf::Color(i_deltaTime.getElapsedTime().asMilliseconds()/10,i_deltaTime.getElapsedTime().asMilliseconds()/10,i_deltaTime.getElapsedTime().asMilliseconds()/10));
-    }
+    } // project name fade in
     if(300 < i_deltaTime.getElapsedTime().asMilliseconds()/10 && i_deltaTime.getElapsedTime().asMilliseconds()/10 < 550){
         my_name.setFillColor(sf::Color((i_deltaTime.getElapsedTime().asMilliseconds()/10)-300,(i_deltaTime.getElapsedTime().asMilliseconds()/10)-300,(i_deltaTime.getElapsedTime().asMilliseconds()/10)-300));
-    }
+    } // my name fade in
     if(600 < i_deltaTime.getElapsedTime().asMilliseconds()/10 && i_deltaTime.getElapsedTime().asMilliseconds()/10 < 850){
         std::cout << 250-((i_deltaTime.getElapsedTime().asMilliseconds()/10)-600) << std::endl;
         project_name.setFillColor(sf::Color(250-((i_deltaTime.getElapsedTime().asMilliseconds()/10)-600),250-((i_deltaTime.getElapsedTime().asMilliseconds()/10)-600),250-((i_deltaTime.getElapsedTime().asMilliseconds()/10)-600)));
         my_name.setFillColor(sf::Color(250-((i_deltaTime.getElapsedTime().asMilliseconds()/10)-600),250-((i_deltaTime.getElapsedTime().asMilliseconds()/10)-600),250-((i_deltaTime.getElapsedTime().asMilliseconds()/10)-600)));
     }
+    
+    // flashes instruction to press space
     if(1000 < i_deltaTime.getElapsedTime().asMilliseconds()/10 && (i_deltaTime.getElapsedTime().asMilliseconds()%2000) < 1000){
         instruct.setFillColor(sf::Color::White);
     }
         if(850 < i_deltaTime.getElapsedTime().asMilliseconds()/10 && (i_deltaTime.getElapsedTime().asMilliseconds()%2000) > 1000){
         instruct.setFillColor(sf::Color::Black);
     }
+
     game.window.draw(my_name);
     game.window.draw(project_name);
     game.window.draw(instruct);
-    // game.window.draw(project_name);
-    //bgSprite.setColor(sf::Color(255, 255, 255, 128));
 }

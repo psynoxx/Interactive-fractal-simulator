@@ -125,7 +125,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\third_party\IMGUI\Debug\ImGui-SFML.lib;..\third_party\SFML-3.0.2\lib\Debug\sfml-graphics-s-d.lib;..\third_party\SFML-3.0.2\lib\Debug\sfml-window-s-d.lib;..\third_party\SFML-3.0.2\lib\Debug\sfml-system-s-d.lib;opengl32.lib;winmm.lib;gdi32.lib;..\third_party\SFML-3.0.2\lib\Debug\freetyped.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\third_party\IMGUI\Debug\ImGui-SFML.lib;..\third_party\SFML-3.0.2\lib\Debug\sfml-graphics-s-d.lib;..\third_party\SFML-3.0.2\lib\Debug\sfml-audio-s-d.lib;..\third_party\SFML-3.0.2\lib\Debug\sfml-window-s-d.lib;opengl32.lib;gdi32.lib;..\third_party\SFML-3.0.2\lib\Debug\freetyped.lib;opengl32.lib;..\third_party\SFML-3.0.2\lib\Debug\sfml-system-s-d.lib;winmm.lib;..\third_party\SFML-3.0.2\lib\Debug\vorbisfiled.lib;..\third_party\SFML-3.0.2\lib\Debug\vorbisencd.lib;..\third_party\SFML-3.0.2\lib\Debug\vorbisd.lib;..\third_party\SFML-3.0.2\lib\Debug\FLACd.lib;..\third_party\SFML-3.0.2\lib\Debug\oggd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -184,7 +184,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\third_party\IMGUI\Release\ImGui-SFML.lib;..\third_party\SFML-3.0.2\lib\Release\sfml-graphics-s.lib;..\third_party\SFML-3.0.2\lib\Release\sfml-window-s.lib;..\third_party\SFML-3.0.2\lib\Release\sfml-system-s.lib;opengl32.lib;winmm.lib;gdi32.lib;..\third_party\SFML-3.0.2\lib\Release\freetype.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\third_party\IMGUI\Release\ImGui-SFML.lib;..\third_party\SFML-3.0.2\lib\Release\sfml-graphics-s.lib;..\third_party\SFML-3.0.2\lib\Release\sfml-audio-s.lib;..\third_party\SFML-3.0.2\lib\Release\sfml-window-s.lib;opengl32.lib;gdi32.lib;..\third_party\SFML-3.0.2\lib\Release\freetype.lib;opengl32.lib;..\third_party\SFML-3.0.2\lib\Release\sfml-system-s.lib;winmm.lib;..\third_party\SFML-3.0.2\lib\Release\vorbisfile.lib;..\third_party\SFML-3.0.2\lib\Release\vorbisenc.lib;..\third_party\SFML-3.0.2\lib\Release\vorbis.lib;..\third_party\SFML-3.0.2\lib\Release\FLAC.lib;..\third_party\SFML-3.0.2\lib\Release\ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -243,7 +243,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\third_party\IMGUI\MinSizeRel\ImGui-SFML.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\sfml-graphics-s.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\sfml-window-s.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\sfml-system-s.lib;opengl32.lib;winmm.lib;gdi32.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\freetype.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\third_party\IMGUI\MinSizeRel\ImGui-SFML.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\sfml-graphics-s.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\sfml-audio-s.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\sfml-window-s.lib;opengl32.lib;gdi32.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\freetype.lib;opengl32.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\sfml-system-s.lib;winmm.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\vorbisfile.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\vorbisenc.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\vorbis.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\FLAC.lib;..\third_party\SFML-3.0.2\lib\MinSizeRel\ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -301,7 +301,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\third_party\IMGUI\RelWithDebInfo\ImGui-SFML.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\sfml-graphics-s.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\sfml-window-s.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\sfml-system-s.lib;opengl32.lib;winmm.lib;gdi32.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\freetype.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\third_party\IMGUI\RelWithDebInfo\ImGui-SFML.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\sfml-graphics-s.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\sfml-audio-s.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\sfml-window-s.lib;opengl32.lib;gdi32.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\freetype.lib;opengl32.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\sfml-system-s.lib;winmm.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\vorbisfile.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\vorbisenc.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\vorbis.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\FLAC.lib;..\third_party\SFML-3.0.2\lib\RelWithDebInfo\ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -393,6 +393,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\flac-build\src\libFLAC\FLAC.vcxproj">
+      <Project>{6FE15B78-58DC-3ABE-98E9-7DCB1EA1DD10}</Project>
+      <Name>FLAC</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\third_party\IMGUI\ImGui-SFML.vcxproj">
       <Project>{A5907716-3B9B-3C21-A620-201B87E88646}</Project>
       <Name>ImGui-SFML</Name>
@@ -400,6 +404,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\freetype-build\freetype.vcxproj">
       <Project>{480D7AFB-216C-3738-A14E-87A6096618B1}</Project>
       <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\ogg-build\ogg.vcxproj">
+      <Project>{BB2C27A2-28BE-31D2-89C7-8A3C29AD4305}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\third_party\SFML-3.0.2\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{774ADD90-3842-33DE-80B8-6DF6662C8634}</Project>
+      <Name>sfml-audio</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\third_party\SFML-3.0.2\src\SFML\Graphics\sfml-graphics.vcxproj">
       <Project>{552C34DC-D523-31C1-AA01-60EBE2087B22}</Project>
@@ -412,6 +424,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\third_party\SFML-3.0.2\src\SFML\Window\sfml-window.vcxproj">
       <Project>{651781DD-7898-395C-9095-B5A342B3C214}</Project>
       <Name>sfml-window</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-build\lib\vorbis.vcxproj">
+      <Project>{D0C405F3-6ED5-319C-8FF8-59E3C4289AB3}</Project>
+      <Name>vorbis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-build\lib\vorbisenc.vcxproj">
+      <Project>{4DC055D4-F93F-35B2-B27E-294001B3A78C}</Project>
+      <Name>vorbisenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Ggold\projects\CMake-SFML-ImGui\build\_deps\vorbis-build\lib\vorbisfile.vcxproj">
+      <Project>{B6363B23-5B82-323E-9619-804863CBE16F}</Project>
+      <Name>vorbisfile</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

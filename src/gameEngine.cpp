@@ -4,13 +4,20 @@
 #include "gameState.h"
 #include <imgui.h>
 #include <imgui-SFML.h>
-
+sf::State state;
 //int width, int height, const std::string& title, sf::State& state
 
 void gameEngine::init(){
-    window.create(sf::VideoMode({1920u, 1080u}), "CMake SFML Project");
+    state = sf::State::Windowed;
+    window.create(sf::VideoMode({1920u, 1080u}), "CMake SFML Project", state);
     window.setFramerateLimit(144);
     m_running = true;
+        if (!music.openFromFile("project_38.mp3"))
+        return; // error
+
+   // music.play();
+    music.setLooping(true);
+    music.setVolume(25);
     
     
 
@@ -22,7 +29,6 @@ void gameEngine::init(){
 void gameEngine::changeState(std::unique_ptr<gameState>&& state){ 
     //cleanup current state
     if( !states.empty() ){
-        //states.back()->cleanup(); not needed 
         states.pop_back();
     }
     //store and init new state
@@ -43,7 +49,6 @@ void gameEngine::pushState(std::unique_ptr<gameState>&& state){
 void gameEngine::popState(){
     //cleanup current state
     if( !states.empty() ){
-        //states.back()->cleanup(); //may lead to errors as cleanup was not defined
         states.pop_back();
     }
     //resume previous state
@@ -62,8 +67,8 @@ void gameEngine::update(){
 }
 
 void gameEngine::draw(){
-    window.clear();
     states.back()->draw(*this);
+    states.back()->drawUI();
     ImGui::SFML::Render(window);
     window.display();
 }
